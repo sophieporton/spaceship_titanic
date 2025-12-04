@@ -1,92 +1,111 @@
-# Spaceship Titanic
+# 🚀 Spaceship Titanic
 
-This repository contains code and data related to the "Spaceship Titanic" project, likely a data science or machine learning project focused on predicting passenger transport based on data from the fictional Spaceship Titanic.
+A data science and machine learning project focused on predicting passenger transport outcomes aboard the fictional *Spaceship Titanic*.
 
-## Key Features & Benefits
+This repository contains code, notebooks, and resources for exploring the dataset, engineering features, building predictive models, and generating automated profiling reports.
 
-*   **Exploratory Data Analysis (EDA):** Comprehensive analysis of the dataset to understand patterns and relationships.
-*   **Feature Engineering:** Creation of new features to improve model performance.
-*   **Model Fitting:** Implementation and evaluation of machine learning models for passenger transport prediction.
-*   **Data Pre-processing:** Cleaning and preparation of the raw data for analysis and modeling.
+---
 
-## Prerequisites & Dependencies
+## 🌟 Key Features
 
-Before running the code in this repository, ensure you have the following installed:
+- **Exploratory Data Analysis (EDA)**  
+  In-depth analysis to uncover trends, patterns, and relationships within the dataset.
 
-*   **Python:** (Version 3.6 or higher recommended)
-*   **Jupyter Notebook:** For running the `.ipynb` files.
-*   **Pandas:** For data manipulation and analysis.
-*   **NumPy:** For numerical computations.
-*   **Scikit-learn:** For machine learning algorithms.
-*   **Matplotlib:** For data visualization.
-*   **Seaborn:** For enhanced data visualization.
-*   **Pandas Profiling:** For generating detailed data analysis reports.
+- **Feature Engineering**  
+  Crafting new, meaningful variables to boost model performance and accuracy.
 
-You can install these dependencies using pip:
+- **Data Pre-processing**  
+  Cleaning, transforming, and preparing the raw data for modeling.
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn pandas-profiling
-```
+- **Model Training & Evaluation**  
+  Implementations of several machine learning models to predict passenger transport outcomes.
 
-## Installation & Setup Instructions
+---
 
-1.  **Clone the repository:**
+## 📦 Prerequisites & Dependencies
 
-    ```bash
+Ensure the following tools and packages are installed:
+
+- Python 3.6+
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Pandas Profiling
+
+Install dependencies:
+
+    pip install pandas numpy scikit-learn matplotlib seaborn pandas-profiling
+
+---
+
+## 🛠 Installation & Setup
+
+Clone the repository:
+
     git clone https://github.com/sophieporton/spaceship_titanic.git
     cd spaceship_titanic
-    ```
 
-2.  **Install the dependencies** (as described in the Prerequisites section).
+(Optional) Create and activate a virtual environment:
 
-3.  **(Optional) Create a virtual environment:**
-
-    ```bash
     python -m venv venv
-    source venv/bin/activate  # On Linux/macOS
-    venv\Scripts\activate  # On Windows
-    pip install -r requirements.txt # If a requirements.txt file existed.
-    ```
+    source venv/bin/activate       # Linux/macOS
+    venv\Scripts\activate          # Windows
 
-## Usage Examples
+If using a requirements file:
 
-The repository contains several Jupyter Notebooks that demonstrate the key steps involved in this project:
+    pip install -r requirements.txt
 
-*   **EDA.ipynb:** This notebook performs exploratory data analysis on the dataset. Run this notebook to understand the data and identify potential features.
+---
 
-*   **Data pre-processing.ipynb:** This notebook handles the pre-processing steps to prepare the data for model training.
+## 📘 Usage
 
-*   **Feature engineering.ipynb:** This notebook demonstrates how to create new features from the existing data.
+This project includes several Jupyter notebooks demonstrating the data workflow:
 
-*   **Model fitting.ipynb:** This notebook trains and evaluates machine learning models using the prepared data and engineered features.
+| Notebook | Description |
+|----------|-------------|
+| EDA.ipynb | Exploratory Data Analysis to understand the dataset. |
+| Data pre-processing.ipynb | Cleans and prepares data for model training. |
+| Feature engineering.ipynb | Creates new features and transforms existing ones. |
+| Model fitting.ipynb | Trains and evaluates machine learning models. |
+| Pandas profiling test.ipynb | Generates an automated profiling report. |
 
-*   **Pandas profiling test.ipynb:** Uses the `pandas-profiling` library to automatically generate a comprehensive report on the dataset.
+Open the notebooks with:
 
-Open these notebooks using Jupyter Notebook:
+    jupyter notebook
 
-```bash
-jupyter notebook
-```
+---
 
-## Configuration Options
+## ⚙️ Configuration Options
 
-There are no specific configuration options available in this project as it is currently structured. However, the notebooks themselves can be modified to adjust parameters, select different models, or experiment with various feature engineering techniques.
+There are no global configuration settings at this time.  
+All parameters—such as feature engineering settings and model hyperparameters—can be modified directly within the notebooks.
 
-## Contributing Guidelines
+---
 
-Contributions are welcome! If you would like to contribute to this project, please follow these guidelines:
+## 🤝 Contributing Guidelines
 
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Make your changes and commit them with descriptive messages.
-4.  Submit a pull request.
+Contributions are welcome!  
+To contribute:
 
-Please ensure that your code is well-documented and follows PEP 8 style guidelines.
+1. Fork the repository  
+2. Create a new branch for your feature or bug fix  
+3. Commit changes with clear, descriptive messages  
+4. Submit a pull request  
 
-## License Information
+Please follow **PEP 8** style guidelines and document your code where needed.
 
-This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
+---
 
-## Acknowledgments
+## 📄 License Information
 
-[Notes on the project](https://docs.google.com/document/d/1KzkgoZcQX6HWzgdeNSWmu7MU5-3jPiL104qlo-NU1hQ/edit)
+This project is licensed under the **Apache License 2.0**.  
+See the `LICENSE` file for full licensing details.
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to the creators of the *Spaceship Titanic* dataset and the open-source community whose tools made this project possible.
