@@ -78,13 +78,6 @@ Open the notebooks with:
 
 ---
 
-## ⚙️ Configuration Options
-
-There are no global configuration settings at this time.  
-All parameters—such as feature engineering settings and model hyperparameters—can be modified directly within the notebooks.
-
----
-
 ## 🤝 Contributing Guidelines
 
 Contributions are welcome!  
@@ -108,4 +101,4 @@ See the `LICENSE` file for full licensing details.
 
 ## 🙏 Acknowledgments
 
-Special thanks to the creators of the *Spaceship Titanic* dataset and the open-source community whose tools made this project possible.
+Special thanks to the creators of the *Spaceship Titanic* dataset, data was sourced from Kaggle (https://www.kaggle.com/competitions/spaceship-titanic)
