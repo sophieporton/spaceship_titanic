@@ -1,0 +1,6 @@
+pandas
+ydata-profiling
+ipywidgets
+scikit-learn
+xgboost
+catboost
